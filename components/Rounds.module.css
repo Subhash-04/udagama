@@ -1,0 +1,68 @@
+.rounds {
+    position: relative;
+    /* background inherited from global .section */
+}
+
+.roundsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.roundCard {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 1.5rem;
+}
+
+.roundNumber {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    opacity: 0.15;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    line-height: 1;
+}
+
+.roundIcon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.roundTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.roundDesc {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+}
+
+.roundLine {
+    width: 40px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 1.2rem auto 0;
+    opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+    .roundsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .roundsGrid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,117 @@
+.timeline {
+    position: relative;
+}
+
+.timelineTrack {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(79, 195, 247, 0.05), rgba(79, 195, 247, 0.3), rgba(79, 195, 247, 0.05));
+    transform: translateX(-50%);
+}
+
+.event {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+    width: 50%;
+}
+
+.event.left {
+    padding-right: 3rem;
+    justify-content: flex-end;
+}
+
+.event.right {
+    margin-left: 50%;
+    padding-left: 3rem;
+}
+
+.dot {
+    position: absolute;
+    top: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-bg-section);
+    border: 2px solid rgba(79, 195, 247, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    font-size: 1.1rem;
+}
+
+.event.left .dot {
+    right: -20px;
+}
+
+.event.right .dot {
+    left: -20px;
+}
+
+.eventCard {
+    padding: 1.5rem;
+    max-width: 360px;
+    width: 100%;
+}
+
+.eventTime {
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #81D4FA;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.eventTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.eventDesc {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .line {
+        left: 20px;
+    }
+
+    .event,
+    .event.left,
+    .event.right {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 60px;
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+
+    .event.left .dot,
+    .event.right .dot {
+        left: 0;
+        right: auto;
+    }
+
+    .eventCard {
+        max-width: 100%;
+    }
+}

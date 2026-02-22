@@ -1,0 +1,259 @@
+.footer {
+    background: #030710;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ===== Top Section — 4-Column Grid ===== */
+.topSection {
+    padding: 4rem 0 3rem;
+    border-bottom: 1px solid rgba(79, 195, 247, 0.08);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.3fr 1.2fr;
+    gap: 3rem;
+}
+
+/* Brand Column */
+.brandCol {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.brandHeader {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+}
+
+.brandLogo {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #81D4FA, #4FC3F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 3px;
+}
+
+.brandSub {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85rem;
+    color: rgba(79, 195, 247, 0.5);
+}
+
+.brandDesc {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    border-left: 2px solid rgba(79, 195, 247, 0.2);
+    padding-left: 1rem;
+}
+
+.socials {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(79, 195, 247, 0.08);
+    border: 1px solid rgba(79, 195, 247, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #81D4FA;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.socialIcon:hover {
+    background: rgba(79, 195, 247, 0.15);
+    border-color: #4FC3F7;
+    box-shadow: 0 0 15px rgba(79, 195, 247, 0.25);
+    transform: translateY(-2px);
+}
+
+/* Navigate Column */
+.navCol,
+.contactCol,
+.mapCol {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.colTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #81D4FA;
+    letter-spacing: 1px;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(79, 195, 247, 0.15);
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.navItem {
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    padding: 0.35rem 0;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.navItem:hover {
+    color: #81D4FA;
+}
+
+.navDot {
+    color: #4FC3F7;
+    font-size: 0.9rem;
+}
+
+/* Contact Column */
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contactItem {
+    display: flex;
+    gap: 0.7rem;
+    align-items: flex-start;
+}
+
+.contactIcon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+.contactText {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+a.contactText:hover {
+    color: #81D4FA;
+}
+
+/* Map Column */
+.mapWrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(79, 195, 247, 0.12);
+}
+
+/* ===== ACM Chapter Banner ===== */
+.chapterBanner {
+    max-width: 500px;
+    margin: 2.5rem auto;
+    text-align: center;
+    padding: 2rem 2.5rem;
+    background: rgba(79, 195, 247, 0.04);
+    border: 1px solid rgba(79, 195, 247, 0.12);
+    border-radius: 16px;
+}
+
+.chapterTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #81D4FA, #B3E5FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.8rem;
+}
+
+.chapterDivider {
+    width: 50px;
+    height: 2px;
+    background: #4FC3F7;
+    margin: 0 auto 0.8rem;
+    border-radius: 1px;
+}
+
+.chapterTagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+}
+
+/* ===== Bottom Bar ===== */
+.bottomBar {
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(79, 195, 247, 0.06);
+}
+
+.bottomInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+.madeBy {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+.devName {
+    color: #81D4FA;
+    font-weight: 600;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .bottomInner {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}
