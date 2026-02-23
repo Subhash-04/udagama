@@ -77,7 +77,7 @@ export default function Hero() {
                     className={styles.ctas}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 1.3 }}
+                    transition={{ duration: 0.8, delay: 1.2 }}
                 >
                     <button
                         className={styles.ctaPrimary}
@@ -85,12 +85,14 @@ export default function Hero() {
                     >
                         Explore More
                     </button>
-                    <button
+                    <a
+                        href="https://acm.vvitguntur.com/contact-us/register"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className={styles.ctaSecondary}
-                        onClick={() => document.getElementById('rounds')?.scrollIntoView({ behavior: 'smooth' })}
                     >
-                        View Rounds
-                    </button>
+                        <span className={styles.greenDot} /> Free Registrations
+                    </a>
                 </motion.div>
             </div>
 

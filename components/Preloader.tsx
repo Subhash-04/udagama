@@ -35,7 +35,7 @@ export default function Preloader() {
                             verticalBeamOffset={0}
                             color="#81D4FA" // Ice blue matching theme
                             horizontalSizing={1}
-                            verticalSizing={2}
+                            verticalSizing={4}
                             wispDensity={1}
                             wispSpeed={15}
                             wispIntensity={5}
