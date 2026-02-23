@@ -8,7 +8,7 @@ const NAV_ITEMS = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'rounds', label: 'Rounds' },
-    { id: 'prizes', label: 'Prizes' },
+
     { id: 'media', label: 'Media' },
     { id: 'timeline', label: 'Timeline' },
     { id: 'faq', label: 'FAQ' },
@@ -61,6 +61,7 @@ export default function Navbar() {
         >
             <div className={styles.inner}>
                 <button className={styles.logo} onClick={() => scrollTo('home')}>
+                    <img src="/logo.png" alt="Udgama Logo" className={styles.logoImage} />
                     UDGAMA
                 </button>
 
@@ -87,7 +88,7 @@ export default function Navbar() {
 
                 {/* Register CTA */}
                 <a
-                    href="#"
+                    href="https://acm.vvitguntur.com/contact-us/register"
                     className={styles.registerBtn}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -127,7 +128,7 @@ export default function Navbar() {
                             </button>
                         ))}
                         <a
-                            href="#"
+                            href="https://acm.vvitguntur.com/contact-us/register"
                             className={styles.mobileRegister}
                             target="_blank"
                             rel="noopener noreferrer"

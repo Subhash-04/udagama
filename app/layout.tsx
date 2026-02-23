@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     "ACM",
     "2026",
   ],
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 export default function RootLayout({

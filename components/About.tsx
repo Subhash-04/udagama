@@ -7,8 +7,8 @@ import GoldParticles from './GoldParticles';
 
 const STATS = [
     { value: '24', label: 'Hours', icon: '⏰' },
-    { value: '500+', label: 'Participants', icon: '👨‍💻' },
-    { value: '₹25K', label: 'Prize Pool', icon: '💰' },
+    { value: 'Goodies', label: 'for Participants', icon: '🛍️' },
+    { value: 'Medals & Gifts', label: 'Prizes', icon: '🏆' },
     { value: 'Offline', label: 'Mode', icon: '🏫' },
 ];
 

@@ -53,7 +53,7 @@ export default function Media() {
                         className={styles.promoVideo}
                         controls
                         playsInline
-                        poster="/home.png"
+                        poster="/udgama.png"
                     >
                         <source src="/promo.mp4" type="video/mp4" />
                         Your browser does not support the video tag.

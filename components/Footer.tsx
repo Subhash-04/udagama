@@ -8,7 +8,7 @@ const NAV_LINKS = [
     { label: 'Home', id: 'home' },
     { label: 'About', id: 'about' },
     { label: 'Rounds', id: 'rounds' },
-    { label: 'Prizes', id: 'prizes' },
+
     { label: 'Timeline', id: 'timeline' },
     { label: 'FAQ', id: 'faq' },
 ];
@@ -27,8 +27,11 @@ export default function Footer() {
                         {/* Brand Column */}
                         <div className={styles.brandCol}>
                             <div className={styles.brandHeader}>
-                                <h3 className={styles.brandLogo}>UDGAMA 1.O</h3>
-                                <span className={styles.brandSub}>Hackathon</span>
+                                <img src="/logo.png" alt="Udgama Logo" className={styles.footerLogoImage} />
+                                <div>
+                                    <h3 className={styles.brandLogo}>UDGAMA 1.O</h3>
+                                    <span className={styles.brandSub}>Hackathon</span>
+                                </div>
                             </div>
                             <p className={styles.brandDesc}>
                                 Udgama 1.O — A 24-hour national level hackathon at VVITU.
@@ -90,15 +93,27 @@ export default function Footer() {
                                 </div>
                                 <div className={styles.contactItem}>
                                     <span className={styles.contactIcon}>📞</span>
+                                    <a href="tel:+918297340096" className={styles.contactText}>
+                                        +91 82973 40096
+                                    </a>
+                                </div>
+                                <div className={styles.contactItem}>
+                                    <span className={styles.contactIcon}>📞</span>
                                     <a href="tel:+917842671226" className={styles.contactText}>
                                         +91 78426 71226
                                     </a>
                                 </div>
                                 <div className={styles.contactItem}>
                                     <span className={styles.contactIcon}>📍</span>
-                                    <span className={styles.contactText}>
+                                    <a
+                                        href="https://maps.app.goo.gl/fo77jYjCGExrfUjSA?g_st=aw"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={styles.contactText}
+                                        style={{ textDecoration: 'underline' }}
+                                    >
                                         Vasireddy Venkatadri Institute of Technology, Nambur, Guntur — 522508
-                                    </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -106,18 +121,24 @@ export default function Footer() {
                         {/* Map Column */}
                         <div className={styles.mapCol}>
                             <h4 className={styles.colTitle}>Find Us</h4>
-                            <div className={styles.mapWrapper}>
+                            <a
+                                href="https://maps.app.goo.gl/fo77jYjCGExrfUjSA?g_st=aw"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.mapWrapper}
+                                style={{ display: 'block', textDecoration: 'none' }}
+                            >
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.6787476442584!2d80.55548499678956!3d16.35478940000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a08478466e451%3A0x3e1d0650dc7be8e2!2sVasireddy%20Venkatadri%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1708629600000!5m2!1sen!2sin"
                                     width="100%"
                                     height="180"
-                                    style={{ border: 0, borderRadius: '12px' }}
+                                    style={{ border: 0, borderRadius: '12px', pointerEvents: 'none' }}
                                     allowFullScreen
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
                                     title="VVITU Location"
                                 />
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

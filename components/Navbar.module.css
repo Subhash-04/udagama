@@ -25,6 +25,9 @@
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
     font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -35,6 +38,12 @@
     border: none;
     cursor: pointer;
     letter-spacing: 3px;
+}
+
+.logoImage {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
 }
 
 .navLinks {

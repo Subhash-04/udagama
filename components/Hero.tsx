@@ -69,7 +69,7 @@ export default function Hero() {
                     <div className={styles.detailDivider} />
                     <div className={styles.detailItem}>
                         <span className={styles.detailIcon}>🏆</span>
-                        <span>₹25,000 Prize Pool</span>
+                        <span>Medals and Gifts</span>
                     </div>
                 </motion.div>
 

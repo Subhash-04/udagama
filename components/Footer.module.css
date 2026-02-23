@@ -30,7 +30,7 @@
 
 .brandHeader {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 0.6rem;
 }
 
@@ -49,6 +49,12 @@
     font-family: 'Playfair Display', serif;
     font-size: 0.85rem;
     color: rgba(79, 195, 247, 0.5);
+}
+
+.footerLogoImage {
+    height: 72px;
+    width: auto;
+    object-fit: contain;
 }
 
 .brandDesc {
