@@ -9,14 +9,14 @@ const TIMELINE_EVENTS = [
     {
         time: 'February 2026',
         title: 'Registrations Open',
-        desc: 'Teams register with project abstracts online. Spread the word!',
+        desc: 'Teams register online. Spread the word!',
         icon: '📢',
         side: 'left' as const,
     },
     {
-        time: 'Early March 2026',
-        title: 'Team Shortlisting',
-        desc: 'Expert panel reviews abstracts. Shortlisted teams are notified via email.',
+        time: 'March 12, 2026',
+        title: 'Performance Test & Shortlisting',
+        desc: 'Teams participate in performance test. Shortlisted teams are notified via email.',
         icon: '✉️',
         side: 'right' as const,
     },

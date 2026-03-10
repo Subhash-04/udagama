@@ -9,14 +9,14 @@ const ROUNDS = [
     {
         number: '01',
         title: 'Registration',
-        desc: 'Teams register online with their project idea abstract. Open to all college students across India.',
+        desc: 'Teams register online. Open to all college students across India.',
         icon: '📝',
         color: '#B3E5FC',
     },
     {
         number: '02',
         title: 'Shortlisting',
-        desc: 'Expert panel reviews abstracts and shortlists the most promising teams based on innovation and feasibility.',
+        desc: 'Teams participate in a performance test on March 12th. Shortlisted teams based on test performance will be invited to the hackathon.',
         icon: '🔍',
         color: '#81D4FA',
     },

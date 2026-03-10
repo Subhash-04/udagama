@@ -18,10 +18,6 @@ const FAQS = [
         a: 'Each team must have 2 to 4 members. All team members must be currently enrolled in a recognized educational institution.',
     },
     {
-        q: 'When will the domains be announced?',
-        a: 'Domains will be announced on the event day, 14th March. There will be 6 domains.',
-    },
-    {
         q: 'What should we bring?',
         a: 'Bring your laptops, chargers, any hardware if needed, and a lot of enthusiasm! Food and refreshments will be provided.',
     },
@@ -32,6 +28,10 @@ const FAQS = [
     {
         q: 'Will there be mentorship during the hackathon?',
         a: 'Yes! Industry experts and faculty mentors will be available throughout the 24 hours to guide teams and provide technical support.',
+    },
+    {
+        q: 'What happens after registration?',
+        a: 'After registration, teams will participate in a performance test on March 12th. Shortlisted teams based on test performance will be notified via email and invited to the on-campus hackathon.',
     },
 ];
 
