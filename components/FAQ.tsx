@@ -11,7 +11,7 @@ const FAQS = [
     },
     {
         q: 'Is there a registration fee?',
-        a: 'Registrations closed on March 11th, 2026 at 12:00 PM. Thank you for your interest in Udgama! Stay tuned to our social media channels for future updates.',
+        a: 'Registration details will be announced soon. Stay tuned to our social media channels and website for updates.',
     },
     {
         q: 'What is the team size?',
