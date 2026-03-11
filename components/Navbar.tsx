@@ -91,7 +91,7 @@ export default function Navbar() {
                     className={styles.registerBtn}
                     disabled
                 >
-                    Free Registration - Closes at 1PM on 12th March ✦
+                    Registration Closed ✦
                 </button>
 
                 {/* Hamburger */}
@@ -125,14 +125,11 @@ export default function Navbar() {
                                 {item.label}
                             </button>
                         ))}
-                        <a
-                            href="https://acm.vvitguntur.com/contact-us/register"
-                            className={styles.mobileRegister}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <span
+                            className={styles.mobileRegisterDisabled}
                         >
-                            Register Now ✦
-                        </a>
+                            Registration Closed ✦
+                        </span>
                     </motion.div>
                 )}
             </AnimatePresence>

@@ -9,7 +9,7 @@ const ROUNDS = [
     {
         number: '01',
         title: 'Registration',
-        desc: 'Free Registration closes on March 12th, 2026 at 1:00 PM. Register now to participate in Udgama!',
+        desc: 'Registration closed on March 12th, 2026 at 1:00 PM. Thank you for your interest in Udgama!',
         icon: '📝',
         color: '#B3E5FC',
     },

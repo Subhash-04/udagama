@@ -11,7 +11,7 @@ const FAQS = [
     },
     {
         q: 'Is there a registration fee?',
-        a: 'Registration details will be announced soon. Stay tuned to our social media channels and website for updates.',
+        a: 'Registrations are now closed. There was no fee for this event.',
     },
     {
         q: 'What is the team size?',
@@ -31,7 +31,7 @@ const FAQS = [
     },
     {
         q: 'What happens after registration?',
-        a: 'After registration, teams will participate in a performance test on March 12th. Shortlisted teams based on test performance will be notified via email and invited to the on-campus hackathon.',
+        a: 'Following the closed registration period, teams participated in a performance test on March 12th. Shortlisted teams have been notified via email and invited to the on-campus hackathon.',
     },
 ];
 

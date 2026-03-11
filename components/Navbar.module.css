@@ -161,6 +161,17 @@
     white-space: nowrap;
 }
 
+.registerBtn:disabled {
+    background: rgba(255, 23, 68, 0.15);
+    color: #FF1744;
+    cursor: not-allowed;
+    border: 1px solid #FF1744;
+}
+
+.registerBtn:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
 .registerBtn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(79, 195, 247, 0.4);
@@ -182,20 +193,22 @@
     letter-spacing: 1px;
 }
 
-@media (max-width: 768px) {
-    .navLinks {
-        display: none;
+    /* Disabled mobile register when closed */
+    .mobileRegisterDisabled {
+        display: block;
+        margin-top: 0.5rem;
+        padding: 0.8rem 1.5rem;
+        background: rgba(255, 23, 68, 0.15);
+        color: #FF1744;
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        font-size: 0.95rem;
+        border: 1px solid #FF1744;
+        border-radius: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+        cursor: not-allowed;
     }
-
-    .registerBtn {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .mobileMenu {
         display: flex;
     }
 }

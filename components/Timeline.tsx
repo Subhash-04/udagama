@@ -7,9 +7,9 @@ import Snowflakes from './Snowflakes';
 
 const TIMELINE_EVENTS = [
     {
-        time: 'February 2026',
-        title: 'Registrations Open',
-        desc: 'Teams register online. Spread the word!',
+        time: 'March 12, 2026',
+        title: 'Registrations Closed',
+        desc: 'Registration period ended at 1:00 PM. Thank you for your interest!',
         icon: '📢',
         side: 'left' as const,
     },
