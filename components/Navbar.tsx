@@ -91,7 +91,7 @@ export default function Navbar() {
                     className={styles.registerBtn}
                     disabled
                 >
-                    Registrations Closed ✦
+                    Free Registration - Closes at 1PM on 12th March ✦
                 </button>
 
                 {/* Hamburger */}
