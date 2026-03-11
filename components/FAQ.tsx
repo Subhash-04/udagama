@@ -9,10 +9,7 @@ const FAQS = [
         q: 'Who can participate in Udgama?',
         a: 'Udgama is open to all college students across India. Whether you\'re a fresher or a final-year student, you\'re welcome to participate. Teams of 2–4 members can register.',
     },
-    {
-        q: 'Is there a registration fee?',
-        a: 'Registrations are now closed. There was no fee for this event.',
-    },
+    
     {
         q: 'What is the team size?',
         a: 'Each team must have 2 to 4 members. All team members must be currently enrolled in a recognized educational institution.',
