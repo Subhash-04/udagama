@@ -85,14 +85,12 @@ export default function Hero() {
                     >
                         Explore More
                     </button>
-                    <a
-                        href="https://acm.vvitguntur.com/contact-us/register"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <button
                         className={styles.ctaSecondary}
+                        disabled
                     >
-                        <span className={styles.greenDot} /> Free Registrations
-                    </a>
+                        <span className={styles.greenDot} /> Registrations Closed
+                    </button>
                 </motion.div>
             </div>
 

@@ -9,7 +9,7 @@ const ROUNDS = [
     {
         number: '01',
         title: 'Registration',
-        desc: 'Teams register online. Open to all college students across India.',
+        desc: 'Registrations closed on March 11th, 2026 at 12:00 PM. Thank you for your interest in Udgama!',
         icon: '📝',
         color: '#B3E5FC',
     },

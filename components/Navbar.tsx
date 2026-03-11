@@ -87,14 +87,12 @@ export default function Navbar() {
                 </ul>
 
                 {/* Register CTA */}
-                <a
-                    href="https://acm.vvitguntur.com/contact-us/register"
+                <button
                     className={styles.registerBtn}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    disabled
                 >
-                    Register Now ✦
-                </a>
+                    Registrations Closed ✦
+                </button>
 
                 {/* Hamburger */}
                 <button
