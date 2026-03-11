@@ -89,7 +89,7 @@ export default function Hero() {
                         className={styles.ctaSecondary}
                         disabled
                     >
-                        <span className={styles.greenDot} /> Free Registration
+                        <span className={styles.statusDot} /> Free Registration
                     </button>
                 </motion.div>
             </div>

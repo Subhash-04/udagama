@@ -144,12 +144,12 @@
     margin-top: 1.5rem;
 }
 
-.greenDot {
+.statusDot {
     width: 10px;
     height: 10px;
-    background-color: #00E676;
+    background-color: #FF1744; /* red */
     border-radius: 50%;
-    box-shadow: 0 0 10px #00E676;
+    box-shadow: 0 0 10px #FF1744;
     display: inline-block;
 }
 
