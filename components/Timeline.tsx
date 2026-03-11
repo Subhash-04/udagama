@@ -7,7 +7,7 @@ import Snowflakes from './Snowflakes';
 
 const TIMELINE_EVENTS = [
     {
-        time: 'March 12, 2026',
+        time: 'March 11, 2026',
         title: 'Registrations Closed',
         desc: 'Registration period ended at 1:00 PM. Thank you for your interest!',
         icon: '📢',
