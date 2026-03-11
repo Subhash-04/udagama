@@ -89,7 +89,7 @@ export default function Hero() {
                         className={styles.ctaSecondary}
                         disabled
                     >
-                        <span className={styles.greenDot} /> Free Registration - Closes at 1PM on 12th March
+                        <span className={styles.greenDot} /> Free Registration
                     </button>
                 </motion.div>
             </div>
